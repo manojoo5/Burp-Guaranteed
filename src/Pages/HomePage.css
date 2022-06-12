@@ -1,0 +1,18 @@
+.intro_text {
+    display: flex;
+    justify-content: center;
+    white-space: pre-wrap;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-size: 56px;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 56px;
+}
+
+.intro_text_inner {
+    max-width: 75%;
+}

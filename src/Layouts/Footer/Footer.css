@@ -13,7 +13,6 @@
 }
 .location_text_icon{
     display: flex;
-    align-items: center;
 }
 .location_text_icon img{
     margin-right: 8px;
@@ -42,16 +41,16 @@ label{
     font-size: 16px;
     font-weight: 600;
 }
-.timings{
+.m-block-0{
     margin-top: 0;
     margin-bottom: 0;
 }
-.cinfo{
-    margin-block: 0;
+.d-flex{
+    display: flex;
 }
-.cinfo1{
-    margin-block-start: 1em;
+.j-center{
+    justify-content: center;
 }
-.address{
-    cursor: pointer;
+.item-center{
+    align-items: center;
 }
