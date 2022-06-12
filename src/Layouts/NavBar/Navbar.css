@@ -1,12 +1,15 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px;
+    max-width: 100%;
 }
 .logo_name{
     color: #D46F2B;
     font-weight: 700;
     font-size: 1.5em;
+    min-width: 25%;
 }
 .logo_name:hover{
     color: rgb(212, 111, 43, 0.7);
@@ -15,9 +18,34 @@ button{
     background-color: #433D39;
     color: #ffffff;
     border: none;
-    padding: 4px;
-    padding-inline: 8px;   
+    padding: 8px;
+    padding-inline: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: -2px 4px 6px 0px rgba(85,85,85,0.75);
+/* -webkit-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75); */
+/* -moz-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75); */
+}
+button:hover{
+
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 .user-action-btn{
     gap: 4px;
+}
+.signup-btn{
+    margin-right: 8px;
+}
+.mw-25{
+    min-width: 25%;
+}
+.text_left{
+    text-align: left;
+}
+.text_center{
+    text-align: center;
+}
+.text_right{
+    text-align: right;
 }

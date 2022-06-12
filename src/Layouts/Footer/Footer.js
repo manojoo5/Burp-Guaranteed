@@ -22,6 +22,9 @@ function Footer() {
             </div>
             <div>
                 <label>Contact</label>
+                <div>
+                    +9197**78**60
+                </div>
             </div>
         </div>
     )

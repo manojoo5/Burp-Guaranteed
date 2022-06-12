@@ -9,6 +9,7 @@
 }
 .location{
     max-width: 25%;
+    min-width: 25%;
 }
 .location_text_icon{
     display: flex;
@@ -32,6 +33,7 @@
 }
 .active_hours{
     max-width: 25%;
+    min-width: 25%;
 }
 img{
     height: 24px;
