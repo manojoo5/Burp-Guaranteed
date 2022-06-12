@@ -46,3 +46,12 @@ label{
     margin-top: 0;
     margin-bottom: 0;
 }
+.cinfo{
+    margin-block: 0;
+}
+.cinfo1{
+    margin-block-start: 1em;
+}
+.address{
+    cursor: pointer;
+}
