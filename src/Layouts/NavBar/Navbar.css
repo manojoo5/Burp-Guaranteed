@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.logo_name{
+    color: #D46F2B;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.logo_name:hover{
+    color: rgb(212, 111, 43, 0.7);
+}
+button{
+    background-color: #433D39;
+    color: #ffffff;
+    border: none;
+    padding: 4px;
+    padding-inline: 8px;   
+}
+.user-action-btn{
+    gap: 4px;
+}
